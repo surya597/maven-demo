@@ -15,18 +15,11 @@
     </dependency>
   </dependencies>
 
-  <scm>
-    <connection>
-      scm:git:http://github.com/ananthakumaran/maven-demo.git
-    </connection>
-    <developerConnection>
-      scm:git:http://github.com/ananthakumaran/maven-demo.git
-    </developerConnection>
-    <url>
-      http://github.com/ananthakumaran/maven-demo
-    </url>
-  </scm>
-
+ <scm>
+<connection>scm:git:https://github.com/surya597/maven-demo.git</connection>
+<url>http://gitlab.com/user/project</url>
+<developerConnection>scm:git:https://github.com/surya597/maven-demo.gitt</developerConnection>
+</scm>
   <build>
     <plugins>
 	    <plugin>
@@ -46,12 +39,26 @@
       </plugin>
     </plugins>
   </build>
+	<repositories>
+<repository>
+<id>maven-group</id>
+<url>http://hostname:8081/repository/maven-group/</url>
+</repository>
+   </repositories>
 
   <distributionManagement>
     <site>
       <id>maven-demo</id>
       <url>file:///${basedir}/../../../temp</url>
     </site>
+	  <snapshot>
+<id>nexus-snapshots</id>
+<url>http://hostname:8081/repository/maven-snapshots/</url>
+</snapshot>
+	  <releases>
+<id>nexus-releases</id>
+<url>http://hostname:8081/repository/maven-releases/</url>
+</releases>
     <repository>
       <id>maven-demo</id>
       <url>file:///${basedir}/../../../temp/maven2</url>
