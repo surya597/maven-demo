@@ -51,10 +51,7 @@
       <id>maven-demo</id>
       <url>file:///${basedir}/../../../temp</url>
     </site>
-	  <releases>
-<id>nexus-releases</id>
-<url>http://hostname:8081/repository/maven-releases/</url>
-</releases>
+	  
     <repository>
       <id>maven-demo</id>
       <url>file:///${basedir}/../../../temp/maven2</url>
