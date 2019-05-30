@@ -45,7 +45,7 @@
     </site>
     <repository>
       <id>maven-demo</id>
-      <url>file:///${basedir}/../../../temp/maven2</url>
+      <url>http://localhost:8081/repository/maven-demo-REL/</url>
     </repository>
   </distributionManagement>	
 </project>
