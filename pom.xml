@@ -51,6 +51,7 @@
       <id>maven-demo</id>
       <url>file:///${basedir}/../../../temp</url>
 	  </site>
+	  <snapshots>
 	  <snapshot>
 
 <id>nexus-snapshots</id>
@@ -58,6 +59,7 @@
 <url>http://hostname:8081/repository/maven-snapshots/</url>
 
 </snapshot>
+	  </snapshots>
 	  <releases>
 
 <id>nexus-releases</id>
