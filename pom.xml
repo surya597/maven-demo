@@ -14,12 +14,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
- <scm>
-<connection>scm:git:https://github.com/surya597/maven-demo.git</connection>
-<url>http://github.com/surya597/maven-demo.git</url>
-<developerConnection>scm:git:https://github.com/surya597/maven-demo.gitt</developerConnection>
-</scm>
   <build>
     <plugins>
 	    <plugin>
