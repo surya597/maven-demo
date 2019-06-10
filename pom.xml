@@ -61,11 +61,7 @@
       <id>maven-demo</id>
       <url>file:///${basedir}/../../../temp</url>
 	  </site>
-   <repository>
-      <id>nexus-releases</id>
-      <url>http://localhost:8081/nexus/content/repositories/releases</url>
-   </repository>
-	      <repository>
+   	      <repository>
       <id>maven-demo</id>
       <url>file:///${basedir}/../../../temp/maven2</url>
     </repository>
